@@ -1,0 +1,15 @@
+{
+    "title": "Naver SmartStore Scraper",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "productUrl": {
+            "title": "Product URL",
+            "type": "string",
+            "editor": "textfield",
+            "description": "A Naver SmartStore product URL, e.g. https://smartstore.naver.com/sajansaja/products/12104664129",
+            "example": "https://smartstore.naver.com/sajansaja/products/12104664129"
+        }
+    },
+    "required": ["productUrl"]
+}

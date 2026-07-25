@@ -1,0 +1,22 @@
+{
+    "name": "naver-scraper-api",
+    "version": "0.1.0",
+    "description": "REST API worker: serves Naver SmartStore __PRELOADED_STATE__ by calling the Apify scraper actor per request.",
+    "type": "commonjs",
+    "main": "dist/server.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "dev": "ts-node src/server.ts"
+    },
+    "dependencies": {
+        "dotenv": "^16.6.1",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.14.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    }
+}

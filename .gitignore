@@ -1,0 +1,21 @@
+# Node (API worker)
+node_modules/
+dist/
+*.log
+
+# Python (library/ Apify actor)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Apify local storage
+apify_storage/
+storage/
+
+# env / os
+.env
+.DS_Store
+
+# private knowledge base (never publish)
+.ai/
